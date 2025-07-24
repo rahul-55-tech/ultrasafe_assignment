@@ -1,0 +1,60 @@
+[
+  {
+    "technique_id": "correlation-analysis",
+    "name": "Correlation Analysis (Pearson)",
+    "description": "Measures the linear relationship between two continuous variables. The result is a correlation coefficient between -1 (perfect negative correlation) and +1 (perfect positive correlation). A value near 0 indicates no linear correlation.",
+    "data_requirements": "Requires at least two numerical (integer or float) columns.",
+    "use_cases": [
+      "Identifying relationships between variables, such as 'does advertising spend correlate with sales?'",
+      "Feature selection in machine learning to remove highly correlated features.",
+      "Understanding multicollinearity in regression models."
+    ],
+    "keywords": ["correlation", "pearson", "linear relationship", "numerical", "continuous"]
+  },
+  {
+    "technique_id": "t-test",
+    "name": "Independent Samples T-Test",
+    "description": "Compares the means of two independent groups to determine whether there is a statistically significant difference between them.",
+    "data_requirements": "Requires one numerical column (the dependent variable) and one categorical column with exactly two distinct groups (the independent variable).",
+    "use_cases": [
+      "A/B testing: Comparing the conversion rates of two different website designs.",
+      "Medical trials: Comparing the effectiveness of a drug versus a placebo.",
+      "Comparing the average salary of two different departments."
+    ],
+    "keywords": ["t-test", "compare means", "two groups", "categorical", "numerical", "A/B test"]
+  },
+  {
+    "technique_id": "anova",
+    "name": "ANOVA (Analysis of Variance)",
+    "description": "Compares the means of three or more independent groups to determine if at least one group mean is different from the others.",
+    "data_requirements": "Requires one numerical column (the dependent variable) and one categorical column with three or more distinct groups (the independent variable).",
+    "use_cases": [
+      "Comparing the effectiveness of three or more different teaching methods on student scores.",
+      "Determining if different manufacturing processes result in different product strengths."
+    ],
+    "keywords": ["anova", "analysis of variance", "compare means", "multiple groups", "categorical"]
+  },
+  {
+    "technique_id": "time-series-forecasting",
+    "name": "Time Series Forecasting (e.g., ARIMA, Prophet)",
+    "description": "Predicts future values based on previously observed values. It involves analyzing time-stamped data to identify patterns like trends, seasonality, and cycles.",
+    "data_requirements": "Requires at least one datetime or date column and one numerical column whose values are recorded over time.",
+    "use_cases": [
+      "Forecasting stock prices or sales revenue.",
+      "Predicting website traffic or electricity demand.",
+      "Analyzing weather patterns."
+    ],
+    "keywords": ["time series", "forecasting", "prediction", "datetime", "trend", "seasonality", "ARIMA"]
+  },
+  {
+    "technique_id": "categorical-distribution",
+    "name": "Categorical Distribution Analysis (Chi-Squared Test)",
+    "description": "Analyzes the frequency distribution of categorical variables. Can be used to test if the observed distribution of a categorical variable differs from an expected distribution, or to test for independence between two categorical variables.",
+    "data_requirements": "Requires one or two categorical (object or string) columns.",
+    "use_cases": [
+      "Determining if there is a relationship between a customer's region and their product preference.",
+      "Analyzing survey responses to see if demographic groups have different opinions."
+    ],
+    "keywords": ["chi-squared", "categorical", "frequency", "distribution", "contingency table"]
+  }
+]

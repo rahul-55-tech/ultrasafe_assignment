@@ -1,0 +1,45 @@
+# Core FastAPI and web dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+
+
+# Vector Database - Pinecone
+pinecone
+
+# LangGraph and Agent Development
+langgraph
+langchain
+langchain-openai
+langchain-community
+
+# Data processing and analysis
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+plotly
+
+# Embeddings and ML
+openai
+
+# Utilities
+pydantic
+pydantic-settings
+httpx
+aiofiles
+python-magic
+xlrd
+openpyxl
+
+
+httpx==0.25.2
+
+# Development
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0 

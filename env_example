@@ -1,0 +1,27 @@
+# Application Settings
+APP_NAME="UltraSafe Data Processing and Analysis System"
+DEBUG=true
+HOST=0.0.0.0
+PORT=8000
+
+# Security
+SECRET_KEY=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+# Pinecone Vector Database
+PINECONE_API_KEY=your-pinecone-db-key
+PINECONE_INDEX_NAME=ultrasafe-data-index
+
+
+# OpenAI Configuration (for embeddings and LLM)
+OPENAI_API_KEY=your-open-ai-key
+EMBEDDING_MODEL=text-embedding-ada-002
+LLM_MODEL=gpt-4
+USF_OPENAPIKEY=your-ultrasafe-api-key
+CONFIGURED_LLM=ultrasafe
+
+# File Upload Settings
+MAX_FILE_SIZE=104857600
+UPLOAD_DIR=uploads
+EXPORT_DIR=exports
+STATIC_DIR=static
+
